@@ -15,12 +15,12 @@ html{
 .sitecontainer{
   width: 960px;
   margin: 0 auto;
-
 }
 
 .headercontainer{
   display: flex;
   flex-direction: column;
+
 }
 
 .headerbar{
@@ -159,4 +159,30 @@ html{
 }
 .copyright{
   margin-left: 1rem;
+}
+
+/* responsive coding */
+
+@media only screen and (max-width:960px){
+
+.sitecontainer{
+  width: 100%;
+}
+.slogancontainer{
+
+  margin-top: 5rem;
+  margin-right: 2rem;
+}
+.slogan{
+  font-size: 1.33rem;
+  padding: 0.75rem 4rem;
+}
+.headerbar{
+  margin-top: 0;
+}
+.headerimage{
+  height: 22rem;
+}
+
+
 }
