@@ -168,6 +168,9 @@ html{
 /* tablet */
 @media only screen and (max-width:960px){
 
+.headerimage{
+  background-position:50%;
+}
   .sitecontainer{
     width: 100%;
   }
