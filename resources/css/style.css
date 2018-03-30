@@ -60,6 +60,9 @@ html{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.menu{
+  display: none;
+}
 
 .slogancontainer{
   color: black;
@@ -162,27 +165,119 @@ html{
 }
 
 /* responsive coding */
-
+/* tablet */
 @media only screen and (max-width:960px){
 
-.sitecontainer{
+  .sitecontainer{
+    width: 100%;
+  }
+  .slogancontainer{
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+  .slogan{
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+  .headerbar{
+    margin-top: 0;
+  }
+  .headerimage{
+    height: 22rem;
+  }
+}
+.philosphy,
+.apointments{
+  padding-left: 2%;
+  padding-right: 10%;
+}
+
+/* phone */
+
+@media only screen and (max-width:630px){
+
+  .headerimage{
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .slogancontainer{
+    margin-top: 9rem;
+  width: 100%;
+  margin-right: 0;
+  }
+  .slogan{
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .title,
+  .navspan{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+  .descrip-span{
+    font-size: 0.77rem;
+  }
+  .offeringgallery{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .galleryitem{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .galleryfitting{
+    margin: 1.54rem 0;
+    height: 5.5rem;
+  }
+  .galleryexam{
+    margin-top: 3.77rem;
+    height: 7rem;
+  }
+  .gallerydelivery{
+    margin-bottom: 3.77rem;
+    height: 5.5rem;
+  }
+
+.philosphygallery{
+  flex-direction: column;
+  align-items: center;
+}
+.philosphycontainer,
+.apointmentscontiner{
+  width: 100%;
+
+}
+.philosphycontainer{
+  margin-right: 0;
+  margin-bottom: 4rem;
+}
+
+.philosphyspan,
+.apointmentspan{
+  margin-bottom: 1rem;
+  padding: 0.5rem 0;
+  text-align: center;
   width: 100%;
 }
-.slogancontainer{
+.philosphy,
+.apointments{
+  font-size: 0.77rem;
+  padding-left: 2%;
+  padding-right: 10%;
+}
 
-  margin-top: 5rem;
-  margin-right: 2rem;
+ .logocopy{
+  justify-content: center;
+    padding-left: 0rem;
 }
-.slogan{
-  font-size: 1.33rem;
-  padding: 0.75rem 4rem;
-}
-.headerbar{
-  margin-top: 0;
-}
-.headerimage{
-  height: 22rem;
-}
+  .copyright{
+    display: none;
+  }
 
 
 }
