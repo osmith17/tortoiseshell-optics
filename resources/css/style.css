@@ -1,8 +1,10 @@
 html{
   font-size: 18px;
   line-height: 1.4;
+  font-family: Helvetica;
 }
 
+/* Heading and Slogan Styling */
 .headerimage{
   background-image: url("../glasses-bg.png");
   background-size: cover;
@@ -73,4 +75,88 @@ html{
   font-weight: bold;
   line-height: 1.2;
   padding: 1.5rem 5rem;
+}
+
+/* Main Page Containers Styling */
+
+.mainbodycontainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.offeringgallery{
+  display: flex;
+  justify-content: center;
+}
+
+.galleryitem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 8rem;
+}
+.galleryfitting{
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.exam{
+  width: 3.5rem;
+}
+
+.fitting,
+.delivery{
+  width: 5rem;
+}
+/* philosphy and apointment */
+
+.philosphygallery{
+  display: flex;
+  justify-content: center;
+}
+
+.philosphycontainer,
+.apointmentscontiner{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+.philosphycontainer{
+  margin-right: 5%;
+}
+
+.philosphyspan,
+.apointmentspan{
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+  background-color: cadetblue;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+/* footer styling */
+
+.footercontainer{
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+.logocopy{
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem
+}
+.logofooter{
+  height: 1.5rem;
+}
+.copyright{
+  margin-left: 1rem;
 }
